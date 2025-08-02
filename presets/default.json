@@ -44,7 +44,9 @@
         "CyberRealisty Pony v12.0": "https://civitai.com/api/download/models/1928679?type=Model&format=SafeTensor&size=pruned&fp=fp16",
         "PhotoArt v5.0": "https://civitai.com/api/download/models/1556348?type=Model&format=SafeTensor&size=full&fp=fp16"
     },
-    "embeddings_downloads": {},
+    "embeddings_downloads": {
+        "CyberRealistic Negative": "https://civitai.com/api/download/models/1690589?type=Negative&format=Other"
+    },
     "lora_downloads": { },
     "previous_default_models": [
         "juggernautXL_version8Rundiffusion.safetensors",
