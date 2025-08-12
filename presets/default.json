@@ -1,12 +1,12 @@
 {
-    "default_model": "juggernautXL_v8Rundiffusion.safetensors",
+    "default_model": "PhotoArt v5.0",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
             true,
             "None",
-            0.1
+            1.0
         ],
         [
             true,
@@ -39,20 +39,11 @@
     "default_styles": [ ],
     "default_aspect_ratio": "1024*1024",
     "default_overwrite_step": -1,
-    "checkpoint_downloads": {
-        "juggernautXL_v8Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors",
-        "CyberRealisty Pony v12.0": "https://civitai.com/api/download/models/1928679?type=Model&format=SafeTensor&size=pruned&fp=fp16",
-        "PhotoArt v5.0": "https://civitai.com/api/download/models/1556348?type=Model&format=SafeTensor&size=full&fp=fp16"
+    "checkpoint_downloads": {,
+        "PhotoArt v5.0": "https://civitai.com/api/download/models/1556348?type=Model&format=SafeTensor&size=full&fp=fp16&token=0acdd5859cfa6ba1eec20596de6399fd"
     },
-    "embeddings_downloads": {
-        "CyberRealistic Negative": "https://civitai.com/api/download/models/1690589?type=Negative&format=Other"
-    },
+    "embeddings_downloads": { },
     "lora_downloads": { },
     "previous_default_models": [
-        "juggernautXL_version8Rundiffusion.safetensors",
-        "juggernautXL_version7Rundiffusion.safetensors",
-        "juggernautXL_v7Rundiffusion.safetensors",
-        "juggernautXL_version6Rundiffusion.safetensors",
-        "juggernautXL_v6Rundiffusion.safetensors"
     ]
 }
